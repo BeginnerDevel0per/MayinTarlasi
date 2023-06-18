@@ -35,6 +35,8 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.txt_mayinsayisi = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.rdr_kolay = new System.Windows.Forms.RadioButton();
             this.rdr_orta = new System.Windows.Forms.RadioButton();
             this.txt_puan = new System.Windows.Forms.Label();
@@ -171,6 +173,24 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Ayarlar";
             // 
+            // txt_mayinsayisi
+            // 
+            this.txt_mayinsayisi.AutoSize = true;
+            this.txt_mayinsayisi.Location = new System.Drawing.Point(156, 220);
+            this.txt_mayinsayisi.Name = "txt_mayinsayisi";
+            this.txt_mayinsayisi.Size = new System.Drawing.Size(21, 16);
+            this.txt_mayinsayisi.TabIndex = 14;
+            this.txt_mayinsayisi.Text = "00";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(61, 220);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(86, 16);
+            this.label3.TabIndex = 13;
+            this.label3.Text = "Mayın Sayısı:";
+            // 
             // rdr_kolay
             // 
             this.rdr_kolay.AutoSize = true;
@@ -279,7 +299,7 @@
             this.MinimumSize = new System.Drawing.Size(1538, 600);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Süleyman Murat BULUT-213312070";
+            this.Text = "Mayın Tarlası Oyunu";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
